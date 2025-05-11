@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodit Setup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 300px;
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #e0e0e0;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      color: #888;
+      cursor: not-allowed;
+    }
+    .footer {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+    }
+    .footer a {
+      color: blue;
+      text-decoration: none;
+    }
+    .lock {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FOODIT</h1>
+
+    <label>💡 Area of Expertise</label>
+    <select>
+      <option selected disabled>Select one...</option>
+      <option>American Sign Language</option>
+      <option>Arts</option>
+      <option>Communications</option>
+      <option>Computer Science</option>
+      <option>Counselor</option>
+      <option>Deaf Education</option>
+      <option>Engineering</option>
+      <option>English Language Learner (ELL)</option>
+    </select>
+
+    <label>🎂 Grade Level</label>
+    <select>
+      <option selected disabled>Select one...</option>
+      <option>Pre-K</option>
+      <option>Elementary School</option>
+      <option>Middle School</option>
+      <option>High School</option>
+      <option>Post High School</option>
+      <option>Other School</option>
+      <option>Not Using For School</option>
+      <option>Other</option>
+    </select>
+
+    <button class="button" disabled>Continue</button>
+
+    <div class="footer">
+      By continuing, you agree to our <a href="#">Privacy Policy</a> and <a href="#">Terms Of Service</a>.
+    </div>
+
+    <div class="lock">🔒</div>
+  </div>
+</body>
+</html>
